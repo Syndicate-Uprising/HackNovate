@@ -1,4 +1,4 @@
-# Building a Modern Version of SocialCalc using Node.js, Go, or Django can use AI tools like Copilot
+# Building a Modern Version of SocialCalc using Node.js as Backend and React with Vite as Frontend
 
 ### CollabCalc: Real-Time Collaborative Spreadsheet Software
 
@@ -13,34 +13,12 @@ ColabCalc software enables real-time collaboration across devices. It allows mul
 **Team Leader:** [@RevMax-creator](https://github.com/RevMax-creator)
 
 **Team Members:**
-
-- **Anmol Narayan**           - 2023UEA6607 - [@aAnmol020](https://github.com/aAnmmol020)
-- **Arpita**                  - 2023UCI6534 - [@arpitagoyal29](https://github.com/arpitagoyal29)
-- **Gourav Sehgal**           - 2023UCI - [@GouravSehgal7](https://github.com/GouravSehgal7)
-- **Haesh Kumar Srivastava** - 2023UCI - [@RevMax-creator](https://github.com/RevMax-creator)
-- **Himanshu Kumar**          - 2023UEA6587 - [@Himanshu-Kumar-04](https://github.com/Himanshu-Kumar-04)
-- **Shreshth Varshney**       - 2023UEA6585 - [@SVSIV-GAMINGMOOD](https://github.com/SVSIV-GAMINGMOOD)
-
+- **Himanshu Kumar**           - [@BlueMoonHunt](https://github.com/bluemoonhunt)
 ## Project Links
 
-- **Internal Presentation:**    [Internal Presentation](URL TO PPT UPLOADED TO GITHUB)
-- **Final SIH Presentation:**   [Final SIH Presentation](URL TO PPT UPLOADED TO GITHUB)
-- **Video Demonstration:**      [Watch Video](https://www.youtube.com/watch?v=CqBnOXhnh-I)
+- **Video Demonstration:**      [Watch Video](https://youtu.be/pUpbyxf2iDw)
 - **Live Deployment:**          [View Deployment](https://collabcalc.onrender.com/)
-- **Source Code:**              [GitHub Repository](GITHUB LINK TO THE REPO)
-- **Additional Resources:**     [Other Relevant Links](ANY OTHER RELEVANT LINKS)
-
-### Team Details
-
-1. PPT team            : Shreshth Varshney⁩ , Arpita⁩ , Himanshu⁩ Kumar
-
-2. Database team       : Harsh Kumar Shrivastava , Shreshth Varshney
-
-3. Design team        : Anmol⁩ , Gourav Sehgal⁩ , Harsh Kumar Shrivastava
-
-4. Production Team    : Harsh Kumar Srivastava, Himanshu⁩ Kumar, Shreshth Varshney⁩, Gourav Sehgal⁩ , Anmol⁩ 
-
-5. Functionality Team : Gourav Sehgal⁩ , Harsh Kumar Shrivastava
+- **Source Code:**              [GitHub Repository](https://github.com/Syndicate-Uprising/HackNovate.git)
 
 ### Project Overview
 
@@ -137,19 +115,19 @@ git diff
 ```
 ### Making branch
 ```
-git remote add origin <your github repo link>
+git remote add origin https://github.com/Syndicate-Uprising/HackNovate.git
 ```
 #### Step to make branch
 ```
-git branch "gourav-work"
-git checkout gourav-work
+git branch "work"
+git checkout work
 git branch
-git push --set-upstream origin gourav-work
+git push --set-upstream origin work
 ```
 #### Step to merge
 ```
 git checkout main
-git merge origin/gourav-work
+git merge origin/work
 git status
 git push
 ```
