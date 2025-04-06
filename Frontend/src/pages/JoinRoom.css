@@ -1,0 +1,72 @@
+/* JoinRoom.css */
+
+.join-room-container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .join-room-container h2 {
+    margin-bottom: 20px;
+    color: #343a40;
+    font-size: 24px;
+  }
+  
+  .join-room-container form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .join-room-container label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    text-align: left;
+    color: #495057;
+  }
+  
+  .join-room-container input {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    font-size: 16px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  .join-room-container input:focus {
+    border-color: #007bff;
+    outline: none;
+    box-shadow: 0 0 3px rgba(0, 123, 255, 0.25);
+  }
+  
+  .join-room-container button {
+    padding: 12px;
+    background-color: #007bff;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .join-room-container button:hover {
+    background-color: #0056b3;
+  }
+  
+  .join-room-container button:active {
+    background-color: #004085;
+  }
+  
+  .join-room-container .error-message {
+    color: #dc3545;
+    margin-bottom: 15px;
+    font-weight: bold;
+  }
+  
